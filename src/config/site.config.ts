@@ -1,5 +1,5 @@
 /**
- * Super I/O Labs — Single source of truth
+ * Super I/O Labs: Single source of truth
  * Update brand colors, fonts, and all site content here.
  */
 export const siteConfig = {
@@ -53,7 +53,7 @@ export const siteConfig = {
   },
 
   site: {
-    name: 'Super I/O Labs',
+    name: 'Super I/O',
     shortName: 'Super I/O',
     tagline: 'Input. Output. Impact.',
     description:
@@ -64,10 +64,10 @@ export const siteConfig = {
   },
 
   contact: {
-    email: 'hello@superiolabs.com',
-    whatsapp: '+233000000000',
+    email: 'superiotechgh@gmail.com',
+    whatsapp: '+233271154324',
     whatsappMessage:
-      'Hello Super I/O Labs! I would like to discuss a project.',
+      'Hello Super I/O! I would like to discuss a project.',
     location: 'Accra, Ghana',
     officeHours: 'Mon – Fri, 9am – 6pm GMT',
   },
@@ -90,7 +90,7 @@ export const siteConfig = {
     badge: 'Building from Ghana, shipping worldwide',
     title: ['We turn your', 'ideas into', 'digital products'],
     subtitle:
-      'Super I/O Labs designs and builds premium mobile apps and websites for startups and businesses in Ghana, across Africa, and beyond.',
+      'Super I/O designs and builds premium mobile apps and websites for startups and businesses in Ghana, across Africa, and beyond.',
     ctaPrimary: 'Start a project',
     ctaSecondary: 'See how we work →',
     trustCount: '50+',
@@ -109,12 +109,12 @@ export const siteConfig = {
     eyebrow: 'What we build',
     title: 'Full-stack digital\nproduct development',
     subtitle:
-      'From concept to launch — we partner with you to design, build, and ship software that users love.',
+      'From concept to launch, we partner with you to design, build, and ship software that users love.',
     items: [
       {
         icon: '📱',
         title: 'Mobile apps',
-        desc: 'Native-quality iOS and Android apps built with Flutter and React Native — fast, beautiful, and scalable.',
+        desc: 'Native-quality iOS and Android apps built with Flutter and React Native: fast, beautiful, and scalable.',
         tags: ['Flutter', 'React Native', 'iOS & Android'],
       },
       {
@@ -126,7 +126,7 @@ export const siteConfig = {
       {
         icon: '🎨',
         title: 'UI/UX design',
-        desc: 'User-centred design that balances aesthetics with usability — wireframes, prototypes, and design systems.',
+        desc: 'User-centred design that balances aesthetics with usability, wireframes, prototypes, and design systems.',
         tags: ['Figma', 'Prototyping', 'Design systems'],
       },
       {
@@ -183,17 +183,17 @@ export const siteConfig = {
     eyebrow: 'Why Super I/O',
     title: 'Built for Africa.\nReady for the world.',
     subtitle:
-      'Local insight, global standards — we bring the best of both to every project.',
+      'Local insight, global standards. We bring the best of both to every project.',
     items: [
       {
         icon: '🌍',
         title: 'Global-quality engineering',
-        desc: 'Clean architecture, modern stacks, and production-grade code — the same standards used by top tech companies.',
+        desc: 'Clean architecture, modern stacks, and production-grade code, the same standards used by top tech companies.',
       },
       {
         icon: '🇬🇭',
         title: 'Rooted in Ghana',
-        desc: 'We understand the local market, payment systems, and connectivity realities — and build products that work here.',
+        desc: 'We understand the local market, payment systems, and connectivity realities, and build products that work here.',
       },
       {
         icon: '⚡',
@@ -208,7 +208,7 @@ export const siteConfig = {
       {
         icon: '🤝',
         title: 'True partnership',
-        desc: 'We are not just vendors — we invest in understanding your business and grow alongside you.',
+        desc: 'We are not just vendors, we invest in understanding your business and grow alongside you.',
       },
       {
         icon: '📈',
@@ -227,12 +227,12 @@ export const siteConfig = {
       {
         name: 'Super I/O Kids',
         category: 'EdTech · Mobile App',
-        desc: 'A parent-facing app for a coding academy — class schedules, recordings, billing, and referrals.',
+        desc: 'A parent-facing app for a coding academy, class schedules, recordings, billing, and referrals.',
         tags: ['Flutter', 'Firebase', 'iOS & Android'],
         color: 'orange',
       },
       {
-        name: 'AutoImport GH',
+        name: 'WHIPLYN',
         category: 'Marketplace · Web & Mobile',
         desc: 'Vehicle import platform connecting Ghanaian buyers with dedicated agents across US, Dubai, and China.',
         tags: ['React', 'Mobile', 'Real-time'],
@@ -241,7 +241,7 @@ export const siteConfig = {
       {
         name: 'Just Bloom Spa',
         category: 'SaaS · Progressive Web App',
-        desc: 'Offline-first spa management system — transactions, staff, reporting, and end-of-day reconciliation.',
+        desc: 'Offline-first spa management system, transactions, staff, reporting, and end-of-day reconciliation.',
         tags: ['React', 'PWA', 'SQLite'],
         color: 'orange',
       },
@@ -260,13 +260,13 @@ export const siteConfig = {
     eyebrow: 'About us',
     title: 'Our story',
     body: [
-      'Super I/O Labs was founded in Accra with a simple belief: world-class software should be accessible to businesses everywhere — not just in Silicon Valley.',
+      'Super I/O Labs was founded in Accra with a simple belief: world-class software should be accessible to businesses everywhere, not just in Silicon Valley.',
       'We combine deep local knowledge of the Ghanaian and African market with engineering practices used by leading global tech companies. The result is digital products that are beautiful, reliable, and built to last.',
-      'Today we work with startups, SMEs, and enterprises across Ghana, West Africa, and internationally — turning ambitious ideas into products that make a real impact.',
+      'Today we work with startups, SMEs, and enterprises across Ghana, West Africa, and internationally, turning ambitious ideas into products that make a real impact.',
     ],
     mission: {
       label: 'Our mission',
-      text: 'To empower businesses in Ghana and across Africa with premium digital products — turning every input into meaningful output and lasting impact.',
+      text: 'To empower businesses in Ghana and across Africa with premium digital products, turning every input into meaningful output and lasting impact.',
     },
     stats: [
       { value: '50+', label: 'Projects delivered' },
@@ -319,9 +319,9 @@ export const siteConfig = {
       {
         title: 'Connect',
         links: [
-          { label: 'Email', href: 'mailto:hello@superiolabs.com' },
-          { label: 'WhatsApp', href: 'https://wa.me/233000000000' },
-          { label: 'LinkedIn', href: '#' },
+          { label: 'Email', href: 'mailto:superiotechgp@gmail.com' },
+          { label: 'WhatsApp', href: 'https://wa.me/233271154324' },
+          { label: 'LinkedIn', href: 'https://www.linkedin.com/company/super-io-africa/about/?viewAsMember=true' },
           { label: 'Twitter / X', href: '#' },
         ],
       },
