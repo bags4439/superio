@@ -1,19 +1,17 @@
 import { siteConfig } from '@/config/site.config';
+import { Logo } from '@/shared/components/ui/Logo';
 import styles from './Footer.module.css';
 
 export function Footer() {
-  const { site, footer } = siteConfig;
+  const { footer } = siteConfig;
 
   return (
     <footer className={styles.footer}>
       <div className={styles.inner}>
         <div className={styles.top}>
           <div>
-            <a href="#home" className={styles.logo}>
-              <div className={styles.logoIcon}>S/I</div>
-              <span className={styles.logoText}>
-                {site.shortName} <span>Labs</span>
-              </span>
+            <a href="#home" className={styles.logoLink}>
+              <Logo size="sm" />
             </a>
             <p className={styles.brandDesc}>{footer.description}</p>
           </div>

@@ -3,7 +3,7 @@ import { Button } from '@/shared/components/ui/Button';
 import styles from './Hero.module.css';
 
 export function Hero() {
-  const { hero, site } = siteConfig;
+  const { hero, site, brand } = siteConfig;
 
   return (
     <section className={styles.hero} id="home">
@@ -80,7 +80,12 @@ export function Hero() {
               </div>
               <div className={styles.previewCard}>
                 <div className={styles.previewHeader}>
-                  <div className={styles.previewIcon} />
+                  <img
+                    src={brand.assets.logo}
+                    alt=""
+                    className={styles.previewIcon}
+                    aria-hidden="true"
+                  />
                   <div>
                     <div className={styles.previewTitle}>Project Alpha</div>
                     <div className={styles.previewSub}>Build in progress — 78%</div>

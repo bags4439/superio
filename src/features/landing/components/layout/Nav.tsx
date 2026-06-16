@@ -2,20 +2,18 @@ import { useState } from 'react';
 import { siteConfig } from '@/config/site.config';
 import { useNavScroll } from '@/shared/hooks/useNavScroll';
 import { Button } from '@/shared/components/ui/Button';
+import { Logo } from '@/shared/components/ui/Logo';
 import styles from './Nav.module.css';
 
 export function Nav() {
   const scrolled = useNavScroll();
   const [open, setOpen] = useState(false);
-  const { site, navLinks, navCta } = siteConfig;
+  const { navLinks, navCta } = siteConfig;
 
   return (
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
-      <a href="#home" className={styles.logo}>
-        <div className={styles.logoIcon}>S/I</div>
-        <span className={styles.logoText}>
-          {site.shortName} <span>Labs</span>
-        </span>
+      <a href="#home" className={styles.logoLink}>
+        <Logo size="md" />
       </a>
 
       <ul className={styles.links}>

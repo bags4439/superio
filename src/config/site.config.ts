@@ -50,6 +50,13 @@ export const siteConfig = {
       sectionPaddingX: 'clamp(20px, 5vw, 80px)',
       sectionPaddingY: '96px',
     },
+    assets: {
+      logo: '/images/superio-logo.png',
+      logoAlt: 'Super I/O',
+      favicon: '/images/superio-logo.png',
+      logoRadius: '6px',
+      logoRadiusLg: '16px',
+    },
   },
 
   site: {
@@ -260,7 +267,7 @@ export const siteConfig = {
     eyebrow: 'About us',
     title: 'Our story',
     body: [
-      'Super I/O Labs was founded in Accra with a simple belief: world-class software should be accessible to businesses everywhere, not just in Silicon Valley.',
+      'Super I/O was founded in Accra with a simple belief: world-class software should be accessible to businesses everywhere, not just in Silicon Valley.',
       'We combine deep local knowledge of the Ghanaian and African market with engineering practices used by leading global tech companies. The result is digital products that are beautiful, reliable, and built to last.',
       'Today we work with startups, SMEs, and enterprises across Ghana, West Africa, and internationally, turning ambitious ideas into products that make a real impact.',
     ],
@@ -274,7 +281,7 @@ export const siteConfig = {
       { value: '5+', label: 'Countries' },
       { value: 'GH & beyond', label: 'Markets served' },
     ],
-    imageAlt: 'Super I/O Labs team, Accra, Ghana',
+    imageAlt: 'Super I/O team, Accra, Ghana',
   },
 
   contactSection: {
@@ -326,7 +333,7 @@ export const siteConfig = {
         ],
       },
     ],
-    copyright: '© 2026 Super I/O Labs. All rights reserved.',
+    copyright: '© 2026 Super I/O. All rights reserved.',
     legalLinks: [
       { label: 'Privacy', href: '#' },
       { label: 'Terms', href: '#' },

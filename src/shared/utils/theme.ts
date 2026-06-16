@@ -2,7 +2,7 @@ import { siteConfig } from '@/config/site.config';
 
 /** Injects brand tokens from site.config.ts into CSS custom properties. */
 export function applyTheme(): void {
-  const { colors, fonts, radii, shadows, layout } = siteConfig.brand;
+  const { colors, fonts, radii, shadows, layout, assets } = siteConfig.brand;
   const root = document.documentElement;
 
   const colorEntries: Record<string, string> = {
@@ -49,6 +49,8 @@ export function applyTheme(): void {
     '--section-padding-x': layout.sectionPaddingX,
     '--section-padding-y': layout.sectionPaddingY,
     '--nav-height': layout.navHeight,
+    '--logo-radius': assets.logoRadius,
+    '--logo-radius-lg': assets.logoRadiusLg,
   };
 
   for (const [key, value] of Object.entries({

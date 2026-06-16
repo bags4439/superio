@@ -18,36 +18,11 @@
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
-.logo {
+.logoLink {
   display: flex;
   align-items: center;
-  gap: 10px;
   text-decoration: none;
   color: var(--color-white);
-}
-
-.logoIcon {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
-  display: grid;
-  place-items: center;
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 11px;
-  letter-spacing: -0.02em;
-}
-
-.logoText {
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 17px;
-  letter-spacing: -0.02em;
-}
-
-.logoText span {
-  color: var(--color-secondary);
 }
 
 .links {
